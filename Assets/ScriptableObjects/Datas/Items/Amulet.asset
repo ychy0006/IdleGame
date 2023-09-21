@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4237f1b1d6d72847bf6017aa322988f, type: 3}
+  m_Name: Amulet
+  m_EditorClassIdentifier: 
+  statsChangeType: 0
+  Luck: 10
+  Charm: 0
+  Exp: 0
+  displayName: "\uBD80\uC801"
+  description: "\uC0AC\uC81C \uBD80\uC801\uC774\uB77C \uD6A8\uACFC\uAC00 \uC788\uC744\uC218\uB3C4..?
+    \uC5C6\uC744\uC218\uB3C4...?"
+  type: 0
+  icon: {fileID: 595121557, guid: 94616a21dfa5b5948816997cfc69b56d, type: 3}
+  canStack: 0
+  maxStackAmount: 0
+  price: 2000
