@@ -21,3 +21,10 @@
   상점에서 구입한 아이템들을 확인할 수 있습니다.
   장착 및 해제, 사용이 가능합니다.
   장착 아이템은 중복 장착이 가능합니다.
+
+### 사용한 이미지 리소스들
+https://assetstore.unity.com/packages/2d/gui/icons/cute-gui-pack-lite-202389
+
+https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010
+
+https://assetstore.unity.com/packages/2d/characters/top-down-2d-rpg-assets-pack-188718
