@@ -38,4 +38,9 @@ public class Gold : MonoBehaviour
 
         return false;
     }
+
+    public void LoadGold()
+    {
+        gold = decimal.Parse(Data.instance.data.Gold); 
+    }
 }

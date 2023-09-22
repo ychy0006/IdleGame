@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class ItemSlot
 {
     public ItemData item;
@@ -200,6 +201,11 @@ public class Inventory : MonoBehaviour
             ClearSeletecItemWindow();
             OnCloseDescription();
         }
+        UpdateUI();
+    }
+    public void LoadItems()
+    {
+        slots = (ItemSlot[])(Data.instance.data.Items).Clone();
         UpdateUI();
     }
 }
