@@ -206,6 +206,12 @@ public class Inventory : MonoBehaviour
     public void LoadItems()
     {
         slots = (ItemSlot[])(Data.instance.data.Items).Clone();
+        for (int i = 0; i < slots.Length; i++)
+        {
+            uiSlots[i].equipped = false;
+            uiSlots[i].Clear();
+        }
+        status.RemoveAllStatModifier();
         UpdateUI();
     }
 }

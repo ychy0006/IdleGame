@@ -83,6 +83,12 @@ public class PlayerStatus : MonoBehaviour
         statusModifiers.Remove(statusModifierSO);
         UpdatePlayerStatus();
     }
+    public void RemoveAllStatModifier()
+    {
+        statusModifiers.Clear();
+        UpdatePlayerStatus();
+        MainInfoUI.instance.UpdateUI();
+    }
     public void LoadStatus()
     {
         name = Data.instance.data.Name;
